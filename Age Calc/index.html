@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./calculator.png" type="image/x-icon">
+    <title>Age calculator</title>
+</head>
+<body>
+    <main class="main">
+        <div class="calculatorContainer">
+            <div class="output">
+                <div class="one">
+                    <h1 class="yourAge">
+                        You Are:
+                    </h1>
+                </div>
+                <div class="two">
+                    <h1 id="result">
+                        
+                    </h1>
+                </div>
+                <div class="three">
+                    <h1 class="old">
+                        years old
+                    </h1>
+                </div>
+            </div>
+            <div class="input">
+              <strong id="eligibility">
+
+              </strong>
+                <div class="innerCont">
+                    <input type="date" name="date" id="dob">
+                    <input id="submit" type="submit" onclick="showAge()" value="Show My Age">
+                    <p class="decription">
+                        Enter your Date-of-Birth and Team Intel would calculate your age
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
